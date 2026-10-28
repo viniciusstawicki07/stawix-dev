@@ -193,8 +193,14 @@
       raiz.style.setProperty('--my', ((y / window.innerHeight) * 2 - 1).toFixed(3));
       raiz.style.setProperty('--cx', x + 'px');
       raiz.style.setProperty('--cy', y + 'px');
+      raiz.classList.add('cursor-ativo');
     });
   }, { passive: true });
+  /* o cursor some quando o mouse sai da janela e reage ao clique */
+  raiz.addEventListener('mouseleave', () => raiz.classList.remove('cursor-ativo'));
+  window.addEventListener('blur', () => raiz.classList.remove('cursor-ativo'));
+  window.addEventListener('pointerdown', (e) => { if (e.pointerType === 'mouse') raiz.classList.add('clicando'); });
+  window.addEventListener('pointerup', () => raiz.classList.remove('clicando'));
 
   /* ------------------------------------------------------------ menu, estudos de caso, ampliação */
   let focoAnterior = null;

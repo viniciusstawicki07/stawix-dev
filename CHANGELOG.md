@@ -6,6 +6,21 @@ O formato segue o [Keep a Changelog](https://keepachangelog.com/pt-BR/1.1.0/) e 
 
 ## [Unreleased]
 
+## [1.0.1] - 2026-10-28
+
+### Alterado
+
+- Endereços de SEO e compartilhamento apontam para o GitHub Pages (`viniciusstawicki07.github.io/stawix-dev`): canonical, Open Graph, dados estruturados, `robots.txt` e `sitemap.xml`.
+- Página 404 ajustada para funcionar dentro do caminho do repositório.
+- README reescrito para quem visita o repositório público, sem instruções internas.
+
+### Corrigido
+
+- A seta do sistema e a gota não aparecem mais juntas no modo imersivo.
+  - A gota passa a ser o cursor, com a ponta exatamente no ponto do clique, contorno claro para contraste e as mesmas animações (pulso, aumento sobre links e botões, leve encolhida ao clicar).
+  - Ela some quando o mouse sai da janela.
+  - Campos de texto mantêm o cursor de digitação normal.
+
 ## [1.0.0] - 2026-10-28
 
 ### Adicionado

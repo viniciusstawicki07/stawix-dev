@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://stawix.dev/sitemap.xml
+Sitemap: https://viniciusstawicki07.github.io/stawix-dev/sitemap.xml
