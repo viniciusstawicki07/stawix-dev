@@ -1,0 +1,14 @@
+{
+  "name": "stawix.dev — Vinicius Muller Stawicki",
+  "short_name": "stawix.dev",
+  "description": "Desenvolvimento de software, automações, IA, web design e manutenção de computadores.",
+  "lang": "pt-BR",
+  "start_url": "./",
+  "display": "browser",
+  "background_color": "#080506",
+  "theme_color": "#080506",
+  "icons": [
+    { "src": "assets/img/marca/apple-touch-icon.png", "sizes": "180x180", "type": "image/png" },
+    { "src": "assets/img/marca/icone-512.png", "sizes": "512x512", "type": "image/png" }
+  ]
+}

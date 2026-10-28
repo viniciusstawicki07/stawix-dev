@@ -1,0 +1,541 @@
+<!doctype html>
+<html lang="pt-BR" class="no-js">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>stawix.dev — Vinicius Muller Stawicki · Tecnologia sob medida</title>
+<meta name="description" content="Desenvolvimento de software, automações, IA, web design e manutenção de computadores. Atendimento em Lapa – PR e remoto para todo o Brasil. Portfólio de Vinicius Muller Stawicki.">
+<meta name="author" content="Vinicius Muller Stawicki">
+<meta name="theme-color" content="#080506">
+<link rel="canonical" href="https://stawix.dev/">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="pt_BR">
+<meta property="og:site_name" content="stawix.dev">
+<meta property="og:title" content="stawix.dev — Tecnologia sob medida, do hardware ao código">
+<meta property="og:description" content="Software, automações, IA, web design e manutenção de computadores. Lapa – PR e remoto para todo o Brasil.">
+<meta property="og:url" content="https://stawix.dev/">
+<meta property="og:image" content="https://stawix.dev/assets/img/marca/og.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Logo stawix.dev com um fluido 3D vermelho-vinho e o texto Tecnologia sob medida, do hardware ao código.">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="stawix.dev — Tecnologia sob medida, do hardware ao código">
+<meta name="twitter:description" content="Software, automações, IA, web design e manutenção de computadores. Lapa – PR e remoto para todo o Brasil.">
+<meta name="twitter:image" content="https://stawix.dev/assets/img/marca/og.jpg">
+<link rel="icon" type="image/png" sizes="32x32" href="assets/img/marca/favicon-32.png">
+<link rel="apple-touch-icon" href="assets/img/marca/apple-touch-icon.png">
+<link rel="manifest" href="site.webmanifest">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,500;14..32,600;14..32,700&amp;family=JetBrains+Mono:wght@400;500&amp;display=swap">
+<link rel="preload" as="image" href="assets/img/fluidos/blob_a.webp" type="image/webp">
+<link rel="stylesheet" href="assets/css/estilo.css">
+<script>document.documentElement.classList.replace('no-js', 'js');</script>
+<script src="assets/js/app.js" defer></script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ProfessionalService",
+  "name": "stawix.dev",
+  "description": "Desenvolvimento de software, automações, inteligência artificial, web design e manutenção de computadores.",
+  "url": "https://stawix.dev/",
+  "image": "https://stawix.dev/assets/img/marca/og.jpg",
+  "logo": "https://stawix.dev/assets/img/marca/icone-512.png",
+  "email": "vinicius.stawicki07@gmail.com",
+  "telephone": "+55 41 99750-5605",
+  "address": { "@type": "PostalAddress", "addressLocality": "Lapa", "addressRegion": "PR", "addressCountry": "BR" },
+  "areaServed": [
+    { "@type": "City", "name": "Lapa", "containedInPlace": { "@type": "State", "name": "Paraná" } },
+    { "@type": "Country", "name": "Brasil" }
+  ],
+  "serviceType": ["Desenvolvimento de software", "Automações", "Inteligência artificial", "Web design", "Manutenção de computadores"],
+  "founder": {
+    "@type": "Person",
+    "name": "Vinicius Muller Stawicki",
+    "jobTitle": "Profissional de TI — infraestrutura, desenvolvimento, DevOps, automação e segurança",
+    "sameAs": ["https://www.linkedin.com/in/vinicius-muller-stawicki/"]
+  }
+}
+</script>
+</head>
+<body>
+<a class="pular" href="#conteudo">Pular para o conteúdo</a>
+<p class="sr-only" id="anuncio" aria-live="polite"></p>
+
+<div id="app">
+<div class="palco" id="palco">
+
+  <div class="camada mov-lento brilho" id="brilho" aria-hidden="true"></div>
+
+  <div class="camada camada-fluido" aria-hidden="true">
+    <div class="rio mov-lento" id="rio"></div>
+    <div class="fluido fluido-b mov-lento" id="fluidoB" style="z-index: 5;"><div class="segue" style="--d: .5;"><div class="sprite sp-b"></div></div></div>
+  </div>
+
+  <div class="camada-heroi mov" id="heroi" aria-hidden="true">
+    <p class="titulo-gigante">STAWIX<span class="selo">.dev</span></p>
+  </div>
+
+  <div class="camada camada-fluido" id="camadaA" aria-hidden="true" style="z-index: 15;">
+    <div class="fluido fluido-a mov" id="fluidoA"><div class="segue" style="--d: 1;"><div class="sprite sp-a"></div></div></div>
+  </div>
+
+  <main class="trilho" id="conteudo" tabindex="-1">
+
+    <!-- 01 · Início -->
+    <section class="cena ativa" data-cena="inicio" data-nome="Início" aria-label="Início">
+      <div class="conteudo abertura">
+        <div class="coluna mov" data-p="1" style="max-width: 500px; display: flex; flex-direction: column; gap: 22px;">
+          <div class="veu" aria-hidden="true"></div>
+          <p class="rotulo entra" style="color: var(--rose);">Vinicius Muller Stawicki · Tecnologia</p>
+          <h1><span class="fina entra e1">Tecnologia</span><span class="forte entra e1">sob medida,</span><span class="forte recuo entra e2">do hardware</span><span class="fina recuo entra e2">ao código.</span></h1>
+          <p class="texto entra e3" style="max-width: 440px;">Software, automações, IA, web design e manutenção de computadores para empresas e pessoas. Atendimento presencial em Lapa – PR e remoto para todo o Brasil.</p>
+          <div class="acoes entra e4">
+            <button type="button" class="btn btn-claro chanfro" data-ir="contato">Solicitar orçamento</button>
+            <a class="btn btn-vidro chanfro" href="https://wa.me/5541997505605" target="_blank" rel="noopener">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 12a8 8 0 0 1-11.8 7L4 20l1.1-4A8 8 0 1 1 20 12z"/><path d="M9 9.5c.3 1.8 1.7 3.4 3.6 4.2l1.2-1 1.7.8-.5 1.5c-3.2-.1-6.4-3-6.6-6.3l1.4-.6.9 1.6z"/></svg>
+              WhatsApp
+            </a>
+          </div>
+        </div>
+        <div class="vidro cartao-heroi so-desk mov entra e3" data-p="2">
+          <div class="topo"><span class="ponto" aria-hidden="true"></span>Lapa – PR · remoto para todo o Brasil</div>
+          <div class="corpo"><div class="miniatura" aria-hidden="true"><div class="sprite sp-a"></div></div><span>5 serviços e 3 projetos em destaque.</span></div>
+        </div>
+        <div class="dica" id="dica" aria-hidden="true"><span class="mouse"></span><span class="rotulo" style="color: #D9CCD0; letter-spacing: .12em;">Role para descer</span></div>
+      </div>
+    </section>
+
+    <!-- 02 · Serviços -->
+    <section class="cena" data-cena="servicos" data-nome="Serviços" aria-labelledby="t-servicos">
+      <div class="conteudo secao-centro">
+        <div class="coluna mov" data-p="1" style="max-width: 780px; display: flex; flex-direction: column; gap: 14px;">
+          <div class="veu" aria-hidden="true"></div>
+          <p class="rotulo entra" style="color: var(--rose);">O que eu faço</p>
+          <h2 id="t-servicos" class="titulo-secao entra e1"><span class="fina">Do diagnóstico ao deploy,</span> <span class="forte">num lugar só.</span></h2>
+        </div>
+        <ul class="grade-servicos mov" data-p="2">
+          <li class="vidro servico entra e2">
+            <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#EDB3C1" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M8 7l-5 5 5 5M16 7l5 5-5 5M14 4l-4 16"/></svg>
+            <h3>Desenvolvimento de software</h3>
+            <p class="texto">Apps mobile, sistemas web e APIs, com arquitetura limpa e pensados para crescer.</p>
+          </li>
+          <li class="vidro servico entra e2">
+            <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#EDB3C1" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12a8 8 0 0 1 14-5.3M20 12a8 8 0 0 1-14 5.3"/><path d="M18 3v4h-4M6 21v-4h4"/></svg>
+            <h3>Automações</h3>
+            <p class="texto">Tarefas repetitivas viram rotinas automáticas, integradas aos sistemas que você já usa.</p>
+          </li>
+          <li class="vidro servico entra e3">
+            <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#EDB3C1" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3l1.8 4.7L18.5 9.5l-4.7 1.8L12 16l-1.8-4.7L5.5 9.5l4.7-1.8z"/><path d="M18 15l.8 2.2L21 18l-2.2.8L18 21l-.8-2.2L15 18l2.2-.8z"/></svg>
+            <h3>Inteligência artificial</h3>
+            <p class="texto">Assistentes, agentes e IA aplicada ao dia a dia da sua operação.</p>
+          </li>
+          <li class="vidro servico entra e3">
+            <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#EDB3C1" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 5h18v14H3z"/><path d="M3 9h18M7 7h.01"/></svg>
+            <h3>Web design</h3>
+            <p class="texto">Sites e landing pages rápidos, bonitos e fáceis de manter.</p>
+          </li>
+          <li class="vidro servico entra e4">
+            <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#EDB3C1" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 5h16v10H4zM9 19h6M12 15v4"/><path d="M14.5 8.5l-3 3"/></svg>
+            <h3>Manutenção de computadores</h3>
+            <p class="texto">Diagnóstico, upgrades, formatação e suporte para casa e empresa, em Lapa e região.</p>
+          </li>
+        </ul>
+        <div class="acoes mov entra e4" data-p="2">
+          <button type="button" class="btn btn-claro chanfro" data-ir="contato">Solicitar orçamento</button>
+          <a class="btn btn-vidro chanfro" href="https://wa.me/5541997505605" target="_blank" rel="noopener">Falar no WhatsApp</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- 03 · Skyle -->
+    <section class="cena" data-cena="skyle" data-nome="Skyle" aria-labelledby="t-skyle" style="--c: #5FD3C6; --brilho-c: rgba(43, 183, 168, 0.12);">
+      <p class="numero mov-lento so-desk" data-p="0" aria-hidden="true" style="right: 3%; top: 12%;">01</p>
+      <div class="conteudo projeto">
+        <div class="coluna">
+          <div class="veu" aria-hidden="true"></div>
+          <div class="cabeca-projeto mov" data-p="1">
+            <div class="marca-projeto entra"><img src="assets/img/projetos/skyle/icone.png" width="36" height="36" alt=""><p class="rotulo" style="color: var(--c);">Projeto 01 de 03 · Hub de projetos com IA</p></div>
+            <h2 id="t-skyle" class="nome-projeto entra e1">Skyle</h2>
+            <p class="sub-projeto entra e2">Projetos como arquipélagos</p>
+          </div>
+          <div class="painel mov entra e3" data-p="2">
+            <div class="feixe" aria-hidden="true" style="--c: rgba(95, 211, 198, 0.55);"></div>
+            <div class="vidro">
+              <p class="texto">Painel local e auto-hospedado para acompanhar projetos, tarefas e o trabalho de agentes de IA: visão em arquipélago, kanban, registro de bugs, atividades e busca por Ctrl+K. Os agentes atualizam tudo por um servidor MCP.</p>
+              <p class="meta"><strong>Status:</strong> em desenvolvimento · <strong>Versão:</strong> 0.11.0 · <strong>Licença:</strong> MIT</p>
+              <ul class="tags"><li class="tag chanfro">React 19</li><li class="tag chanfro">FastAPI</li><li class="tag chanfro">MCP</li><li class="tag chanfro">SQLite</li><li class="tag chanfro">Docker</li></ul>
+              <button type="button" class="link" data-abrir-caso="skyle" aria-haspopup="dialog">Ver estudo de caso <span class="seta" aria-hidden="true">→</span></button>
+            </div>
+          </div>
+        </div>
+        <div class="dispositivos">
+          <div class="segue" style="--d: .6; width: auto; height: auto;">
+            <div class="giro mov-lento" data-p="3" data-lado="-1">
+              <div class="janela atras skyle-atras" aria-hidden="true"><div class="janela-barra"><span></span><span></span><span></span></div><img src="assets/img/projetos/skyle/01-kanban-desktop-escuro.webp" width="1600" height="1000" alt="" loading="lazy" decoding="async"></div>
+              <div class="janela"><div class="janela-barra"><span></span><span></span><span></span><em>skyle · local</em></div><img src="assets/img/projetos/skyle/00-heroi-desktop-escuro.webp" width="1600" height="1000" alt="Tela inicial do Skyle com a visão de arquipélago de três projetos fictícios, atividades recentes e o que aguarda você." decoding="async"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 04 · SimpliFinance -->
+    <section class="cena" data-cena="simplifinance" data-nome="SimpliFinance" aria-labelledby="t-simpli" style="--c: #6FE7EE; --brilho-c: rgba(111, 231, 238, 0.1);">
+      <p class="numero mov-lento so-desk" data-p="0" aria-hidden="true" style="left: 2%; top: 10%;">02</p>
+      <div class="conteudo projeto invertido">
+        <div class="dispositivos">
+          <div class="segue" style="--d: .6; width: auto; height: auto;">
+            <div class="giro mov-lento" data-p="3" data-lado="1">
+              <div class="celular atras simpli-atras" aria-hidden="true"><img src="assets/img/projetos/simplifinance/05-analises-mobile-escuro.webp" width="640" height="1385" alt="" loading="lazy" decoding="async"></div>
+              <div class="celular"><img src="assets/img/projetos/simplifinance/00-heroi-inicio-mobile-escuro.webp" width="640" height="1385" alt="Tela inicial do SimpliFinance com saldo disponível, previsão do mês e faturas, usando dados fictícios." loading="lazy" decoding="async"></div>
+            </div>
+          </div>
+        </div>
+        <div class="coluna">
+          <div class="veu" aria-hidden="true"></div>
+          <div class="cabeca-projeto mov" data-p="1">
+            <div class="marca-projeto entra"><img src="assets/img/projetos/simplifinance/icone.png" width="36" height="36" alt=""><p class="rotulo" style="color: var(--c);">Projeto 02 de 03 · App de finanças pessoais</p></div>
+            <h2 id="t-simpli" class="nome-projeto entra e1">Simpli<span style="font-weight: 300;">Finance</span></h2>
+            <p class="sub-projeto entra e2">Finanças sob controle, no seu ritmo</p>
+          </div>
+          <div class="painel mov entra e3" data-p="2">
+            <div class="feixe" aria-hidden="true" style="--c: rgba(111, 231, 238, 0.5);"></div>
+            <div class="vidro">
+              <p class="texto">Receitas, despesas, contas, cartões, faturas e parcelas num só app, sem confundir uma compra no cartão com uma saída de caixa. Análises por período, categoria e responsável, com os dados guardados no próprio aparelho.</p>
+              <p class="meta"><strong>Plataforma:</strong> app mobile · <strong>Versão:</strong> 1.10.0 · <strong>Dados:</strong> locais</p>
+              <ul class="tags"><li class="tag chanfro">Flutter</li><li class="tag chanfro">Riverpod</li><li class="tag chanfro">SQLite</li><li class="tag chanfro">fl_chart</li><li class="tag chanfro">Importação OFX</li></ul>
+              <button type="button" class="link" data-abrir-caso="simplifinance" aria-haspopup="dialog">Ver estudo de caso <span class="seta" aria-hidden="true">→</span></button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 05 · Teklog -->
+    <section class="cena" data-cena="teklog" data-nome="Teklog" aria-labelledby="t-teklog" style="--c: #B79BFF; --brilho-c: rgba(138, 77, 255, 0.14);">
+      <p class="numero mov-lento so-desk" data-p="0" aria-hidden="true" style="right: 3%; top: 14%;">03</p>
+      <div class="conteudo projeto">
+        <div class="coluna">
+          <div class="veu" aria-hidden="true"></div>
+          <div class="cabeca-projeto mov" data-p="1">
+            <div class="marca-projeto entra"><img src="assets/img/projetos/teklog/icone.png" width="36" height="36" alt=""><p class="rotulo" style="color: var(--c);">Projeto 03 de 03 · Serviços técnicos offline-first</p></div>
+            <h2 id="t-teklog" class="nome-projeto entra e1">Teklog</h2>
+            <p class="sub-projeto entra e2">Atendimentos registrados, mesmo sem internet</p>
+          </div>
+          <div class="painel mov entra e3" data-p="2">
+            <div class="feixe" aria-hidden="true" style="--c: rgba(183, 155, 255, 0.55);"></div>
+            <div class="vidro">
+              <p class="texto">Relatórios técnicos com vários atendimentos por local, custos e mídias, checklists com modelos versionados e PDF gerado no próprio aparelho com a identidade da organização. Feito para equipes de TI e técnicos autônomos trabalharem sem conexão.</p>
+              <p class="meta"><strong>Status:</strong> em desenvolvimento · <strong>Versão:</strong> 0.2.0 · <strong>Offline-first</strong></p>
+              <ul class="tags"><li class="tag chanfro">Flutter</li><li class="tag chanfro">Riverpod</li><li class="tag chanfro">GoRouter</li><li class="tag chanfro">Drift / SQLite</li><li class="tag chanfro">PDF local</li></ul>
+              <button type="button" class="link" data-abrir-caso="teklog" aria-haspopup="dialog">Ver estudo de caso <span class="seta" aria-hidden="true">→</span></button>
+            </div>
+          </div>
+        </div>
+        <div class="dispositivos">
+          <div class="segue" style="--d: .6; width: auto; height: auto;">
+            <div class="giro mov-lento" data-p="3" data-lado="-1">
+              <div class="tablet atras teklog-atras" aria-hidden="true"><img src="assets/img/projetos/teklog/05-checklists-tablet-escuro.webp" width="900" height="1201" alt="" loading="lazy" decoding="async"></div>
+              <div class="celular"><img src="assets/img/projetos/teklog/01-relatorios-mobile-escuro.webp" width="640" height="1385" alt="Lista de relatórios do Teklog no celular, com busca, filtros e relatórios de demonstração em vários estados." loading="lazy" decoding="async"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 06 · Sobre -->
+    <section class="cena" data-cena="sobre" data-nome="Sobre" aria-labelledby="t-sobre">
+      <div class="conteudo sobre">
+        <div class="coluna mov" data-p="1">
+          <div class="veu" aria-hidden="true"></div>
+          <p class="rotulo entra" style="color: var(--rose);">Sobre</p>
+          <h2 id="t-sobre" class="titulo-secao entra e1" style="font-size: clamp(34px, 4.2vw, 60px);"><span class="fina">Soluções completas,</span> <span class="forte">não só código.</span></h2>
+          <p class="texto entra e2">Sou Vinicius Muller Stawicki, profissional de TI com atuação em infraestrutura, desenvolvimento de software, DevOps, automação e segurança da informação.</p>
+          <p class="texto entra e2">Trabalho com ambientes corporativos — Windows Server, Active Directory, Microsoft 365, Linux, Docker e Kubernetes — e desenvolvo com Flutter, Python, Django e React. Meu foco é entregar soluções organizadas, de qualidade e prontas para crescer.</p>
+          <ul class="tags entra e3"><li class="tag chanfro">Infraestrutura</li><li class="tag chanfro">DevOps</li><li class="tag chanfro">Segurança</li><li class="tag chanfro">Lapa – PR</li></ul>
+        </div>
+        <div class="processo mov" data-p="2">
+          <div class="vidro entra e3">
+            <p class="rotulo" style="color: var(--rose);">Como trabalho</p>
+            <div style="position: relative; margin-top: 18px;">
+            <span class="feixe-v" aria-hidden="true"></span>
+            <ol class="etapas" style="margin: 0;">
+              <li><span class="num">01</span><div><h3>Diagnóstico</h3><p>Entendo o problema e o que realmente precisa ser resolvido.</p></div></li>
+              <li><span class="num">02</span><div><h3>Planejamento</h3><p>Escopo, etapas e arquitetura definidos antes de começar.</p></div></li>
+              <li><span class="num">03</span><div><h3>Construção</h3><p>Entregas parciais, versionadas e testadas para você acompanhar.</p></div></li>
+              <li><span class="num">04</span><div><h3>Entrega</h3><p>Publicação segura, com histórico de versões documentado.</p></div></li>
+              <li><span class="num">05</span><div><h3>Acompanhamento</h3><p>Suporte e evolução contínua depois da entrega.</p></div></li>
+            </ol>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 07 · Contato -->
+    <section class="cena" data-cena="contato" data-nome="Contato" aria-labelledby="t-contato">
+      <div class="conteudo secao-centro" style="gap: 28px;">
+        <div class="coluna mov" data-p="1">
+          <div class="veu" aria-hidden="true"></div>
+          <h2 id="t-contato" class="titulo-secao entra" style="font-size: clamp(32px, 4vw, 56px);"><span class="fina">Fim do rio,</span> <span class="forte">começo da conversa.</span></h2>
+        </div>
+        <div class="grade-contato mov" data-p="2">
+          <div class="bloco entra e1">
+            <div class="feixe" aria-hidden="true" style="--c: rgba(237, 179, 193, 0.6);"></div>
+            <form class="vidro form-orcamento" id="form-orcamento" novalidate>
+              <h3 style="margin: 0; font-size: 22px; font-weight: 600; letter-spacing: -0.01em;">Solicitar orçamento</h3>
+              <div class="linha-campos">
+                <div><label class="rotulo-campo" for="f-nome">Seu nome</label><input id="f-nome" name="nome" class="campo" type="text" autocomplete="name" placeholder="Como posso te chamar?"></div>
+                <div><label class="rotulo-campo" for="f-servico">Serviço</label>
+                  <select id="f-servico" name="servico" class="campo">
+                    <option>Desenvolvimento de software</option><option>Automações</option><option>Inteligência artificial</option><option>Web design</option><option>Manutenção de computadores</option><option>Outro</option>
+                  </select></div>
+              </div>
+              <div><label class="rotulo-campo" for="f-prazo">Prazo</label>
+                <select id="f-prazo" name="prazo" class="campo"><option>Urgente (esta semana)</option><option selected>Este mês</option><option>Sem pressa</option></select></div>
+              <div><label class="rotulo-campo" for="f-msg">Conte rapidamente o que precisa</label><textarea id="f-msg" name="mensagem" class="campo" rows="3"></textarea></div>
+              <div class="acoes" style="gap: 10px;">
+                <button type="submit" class="btn btn-claro chanfro">Enviar pelo WhatsApp</button>
+                <a class="btn btn-vidro chanfro" id="link-email" href="mailto:vinicius.stawicki07@gmail.com?subject=Or%C3%A7amento">Enviar por e-mail</a>
+              </div>
+            </form>
+          </div>
+          <div class="bloco entra e2">
+            <div class="feixe" aria-hidden="true" style="--c: rgba(226, 214, 217, 0.45);"></div>
+            <div class="vidro">
+              <p class="rotulo" style="color: #D9CCD0;">Outros afluentes</p>
+              <h3 style="margin: 0; font-size: 22px; font-weight: 600; letter-spacing: -0.01em;">Conheça outros projetos</h3>
+              <ul class="lista-outros">
+                <li><span>Controle de Notas Fiscais</span><span>Sistema web</span></li>
+                <li><span>Bot de faturas</span><span>Automação desktop</span></li>
+                <li><span>Controle de ativos</span><span>Monitoramento de TI</span></li>
+                <li><span>Radar de oportunidades</span><span>Em breve</span></li>
+              </ul>
+              <div class="contatos-diretos">
+                <a class="link" href="https://wa.me/5541997505605" target="_blank" rel="noopener">WhatsApp <span class="seta" aria-hidden="true">↗</span></a>
+                <a class="link" href="https://www.linkedin.com/in/vinicius-muller-stawicki/" target="_blank" rel="noopener">LinkedIn <span class="seta" aria-hidden="true">↗</span></a>
+                <a class="link" href="mailto:vinicius.stawicki07@gmail.com">vinicius.stawicki07@gmail.com</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <p class="rodape">© 2026 Vinicius Muller Stawicki · stawix.dev · Lapa – PR, remoto para todo o Brasil</p>
+      </div>
+    </section>
+
+  </main>
+
+  <div class="camada gotas" aria-hidden="true" style="z-index: 30;">
+    <div class="fluido gota-1 mov-rapido" id="gota1"><div class="segue" style="--d: 2.2;"><div class="sprite sp-a" style="animation-delay: -.7s;"></div></div></div>
+    <div class="fluido gota-2 mov-rapido" id="gota2"><div class="segue" style="--d: 2.8;"><div class="sprite sp-b" style="animation-delay: -1.1s;"></div></div></div>
+  </div>
+  <div class="camada" aria-hidden="true" style="z-index: 40; overflow: hidden;"><div class="grao"></div><div class="vinheta"></div></div>
+</div>
+
+<header class="topo-site">
+  <nav aria-label="Principal">
+    <button type="button" class="logo" data-ir="inicio" aria-label="stawix.dev, voltar ao início"><b>stawix</b><i>.dev</i></button>
+    <div class="links so-desk">
+      <button type="button" class="navbtn" data-ir="servicos">Serviços</button>
+      <button type="button" class="navbtn" data-ir="skyle">Projetos</button>
+      <button type="button" class="navbtn" data-ir="sobre">Sobre</button>
+      <button type="button" class="navbtn" data-ir="contato">Contato</button>
+    </div>
+    <div class="direita">
+      <button type="button" class="btn btn-vinho chanfro so-desk" data-ir="contato" style="min-height: 44px;">Solicitar orçamento</button>
+      <button type="button" class="btn btn-vidro chanfro" data-abrir-menu aria-haspopup="dialog" style="min-height: 44px; padding: 0 16px;">Menu</button>
+    </div>
+  </nav>
+</header>
+
+<nav class="pontos" id="pontos" aria-label="Cenas">
+  <button type="button" class="dot" data-ir="inicio" aria-label="Ir para Início"><span class="nome" aria-hidden="true">Início</span><span class="traco"></span></button>
+  <button type="button" class="dot" data-ir="servicos" aria-label="Ir para Serviços"><span class="nome" aria-hidden="true">Serviços</span><span class="traco"></span></button>
+  <button type="button" class="dot" data-ir="skyle" aria-label="Ir para Skyle"><span class="nome" aria-hidden="true">Skyle</span><span class="traco"></span></button>
+  <button type="button" class="dot" data-ir="simplifinance" aria-label="Ir para SimpliFinance"><span class="nome" aria-hidden="true">SimpliFinance</span><span class="traco"></span></button>
+  <button type="button" class="dot" data-ir="teklog" aria-label="Ir para Teklog"><span class="nome" aria-hidden="true">Teklog</span><span class="traco"></span></button>
+  <button type="button" class="dot" data-ir="sobre" aria-label="Ir para Sobre"><span class="nome" aria-hidden="true">Sobre</span><span class="traco"></span></button>
+  <button type="button" class="dot" data-ir="contato" aria-label="Ir para Contato"><span class="nome" aria-hidden="true">Contato</span><span class="traco"></span></button>
+</nav>
+
+<div class="barra-inferior">
+  <div>
+    <div class="progresso">
+      <div class="linha1"><span class="pct" id="pct">0%</span><span class="nome-cena" id="nome-cena">Início</span></div>
+      <div class="trilha"><div id="barra"></div></div>
+    </div>
+    <div class="contador so-desk"><span>↑ ↓ ou role</span><b id="contador">01 / 07</b></div>
+  </div>
+</div>
+
+<button type="button" class="btn btn-vidro chanfro alternar-leitura" id="alternar-leitura" aria-pressed="false">Modo leitura</button>
+</div>
+
+<!-- Menu -->
+<div class="menu" id="menu" role="dialog" aria-modal="true" aria-label="Menu de navegação" inert>
+  <div class="menu-caixa">
+    <div class="menu-cabeca"><p class="rotulo" style="color: var(--rose);">Navegação</p><button type="button" class="btn btn-vidro chanfro" data-fechar-menu style="min-height: 44px;">Fechar ✕</button></div>
+    <ol>
+      <li><button type="button" class="item-menu" data-ir="inicio"><small>01</small>Início<em>abertura</em></button></li>
+      <li><button type="button" class="item-menu" data-ir="servicos"><small>02</small>Serviços<em>o que eu faço</em></button></li>
+      <li><button type="button" class="item-menu" data-ir="skyle"><small>03</small>Skyle<em>hub de projetos com IA</em></button></li>
+      <li><button type="button" class="item-menu" data-ir="simplifinance"><small>04</small>SimpliFinance<em>app de finanças</em></button></li>
+      <li><button type="button" class="item-menu" data-ir="teklog"><small>05</small>Teklog<em>serviços técnicos offline</em></button></li>
+      <li><button type="button" class="item-menu" data-ir="sobre"><small>06</small>Sobre<em>quem sou</em></button></li>
+      <li><button type="button" class="item-menu" data-ir="contato"><small>07</small>Contato<em>orçamento</em></button></li>
+    </ol>
+  </div>
+</div>
+
+<!-- Estudos de caso -->
+<div class="caso-fundo" id="caso-fundo" aria-hidden="true"></div>
+
+<aside class="caso" id="caso-skyle" role="dialog" aria-modal="true" aria-labelledby="caso-t-skyle" style="--c: #5FD3C6;" inert>
+  <div class="caso-cabeca"><p class="rotulo" style="color: var(--c);">Estudo de caso · 01</p><button type="button" class="btn btn-vidro chanfro" data-fechar-caso style="min-height: 44px;">Fechar ✕</button></div>
+  <h2 id="caso-t-skyle">Skyle</h2>
+  <p class="resumo">Projetos como arquipélagos, guiados por agentes de IA.</p>
+  <div class="fichas">
+    <div class="vidro ficha"><p>Status</p><strong>Em desenvolvimento</strong></div>
+    <div class="vidro ficha"><p>Versão</p><strong>0.11.0</strong></div>
+    <div class="vidro ficha"><p>Execução</p><strong>Local, auto-hospedado</strong></div>
+    <div class="vidro ficha"><p>Licença</p><strong>MIT</strong></div>
+  </div>
+  <h3>O desafio</h3>
+  <p class="texto">Dar visibilidade ao andamento de vários projetos e ao trabalho de agentes de IA sem depender de uma plataforma SaaS centralizada.</p>
+  <h3>A solução</h3>
+  <p class="texto">Um painel local que reúne projetos pessoais e de trabalho numa visão de arquipélago, com quadros kanban, registro de bugs, atividades e busca por teclado. O backend em Python oferece a API e um servidor MCP, o frontend em React mostra o estado dos projetos e o SQLite guarda os dados localmente. A integração com GitHub e GitLab é opcional.</p>
+  <h3>Destaques</h3>
+  <ul class="pontos-lista">
+    <li>Visão de projetos em arquipélago e quadros kanban.</li>
+    <li>Registro e acompanhamento de bugs e atividades.</li>
+    <li>Busca global acionada por Ctrl+K.</li>
+    <li>Servidor MCP com sete ferramentas para os agentes atualizarem projetos e consultarem atividades.</li>
+  </ul>
+  <h3>Arquitetura</h3>
+  <p class="texto">Frontend React compilado e servido pelo backend FastAPI; API e servidor MCP protegidos por token; persistência em SQLite num volume local; integrações com GitHub e GitLab por API, opcionais.</p>
+  <h3>Tecnologias</h3>
+  <ul class="tags"><li class="tag chanfro">React 19</li><li class="tag chanfro">TypeScript</li><li class="tag chanfro">FastAPI</li><li class="tag chanfro">Python</li><li class="tag chanfro">MCP Python SDK</li><li class="tag chanfro">SQLModel</li><li class="tag chanfro">SQLite</li><li class="tag chanfro">Docker</li><li class="tag chanfro">Vite</li></ul>
+  <h3>No roadmap</h3>
+  <ul class="pontos-lista">
+    <li>Estatísticas gerais (1.1.0) e notificações pelo Telegram (1.2.0).</li>
+    <li>Versão desktop e sincronização entre dispositivos (v2).</li>
+  </ul>
+  <h3>Telas</h3>
+  <ul class="galeria larga">
+    <li><figure><button type="button" data-ampliar data-src="assets/img/projetos/skyle/00-heroi-desktop-escuro.webp" data-legenda="Início com o arquipélago de projetos do workspace Pessoal."><img src="assets/img/projetos/skyle/00-heroi-desktop-escuro.webp" width="1600" height="1000" alt="Tela inicial do Skyle com a navegação lateral e a visão de arquipélago de três projetos fictícios." loading="lazy" decoding="async"></button><figcaption>Início com o arquipélago de projetos.</figcaption></figure></li>
+    <li><figure><button type="button" data-ampliar data-src="assets/img/projetos/skyle/01-kanban-desktop-escuro.webp" data-legenda="Quadro kanban com tarefas demonstrativas."><img src="assets/img/projetos/skyle/01-kanban-desktop-escuro.webp" width="1600" height="1000" alt="Quadro kanban do Skyle com tarefas fictícias organizadas em colunas por estado." loading="lazy" decoding="async"></button><figcaption>Quadro kanban.</figcaption></figure></li>
+    <li><figure><button type="button" data-ampliar data-src="assets/img/projetos/skyle/02-bug-detalhe-desktop-escuro.webp" data-legenda="Detalhe de um bug na demonstração."><img src="assets/img/projetos/skyle/02-bug-detalhe-desktop-escuro.webp" width="1600" height="1000" alt="Tela de projeto do Skyle com um bug demonstrativo selecionado e seus detalhes." loading="lazy" decoding="async"></button><figcaption>Detalhe de bug.</figcaption></figure></li>
+    <li><figure><button type="button" data-ampliar data-src="assets/img/projetos/skyle/03-feed-atividade-desktop-escuro.webp" data-legenda="Feed de atividades com eventos fictícios."><img src="assets/img/projetos/skyle/03-feed-atividade-desktop-escuro.webp" width="1600" height="1000" alt="Feed de atividades do Skyle com eventos da demonstração." loading="lazy" decoding="async"></button><figcaption>Feed de atividades.</figcaption></figure></li>
+    <li><figure><button type="button" data-ampliar data-src="assets/img/projetos/skyle/04-busca-ctrl-k-desktop-escuro.webp" data-legenda="Busca global aberta por Ctrl+K."><img src="assets/img/projetos/skyle/04-busca-ctrl-k-desktop-escuro.webp" width="1600" height="1000" alt="Busca global do Skyle aberta por Ctrl+K, exibindo um resultado de demonstração." loading="lazy" decoding="async"></button><figcaption>Busca por Ctrl+K.</figcaption></figure></li>
+    <li><figure><button type="button" data-ampliar data-src="assets/img/projetos/skyle/05-changelog-verificacoes-desktop-escuro.webp" data-legenda="Verificações de CHANGELOG e versão do projeto."><img src="assets/img/projetos/skyle/05-changelog-verificacoes-desktop-escuro.webp" width="1600" height="1000" alt="Tela de changelog do Skyle com o painel de verificações expandido." loading="lazy" decoding="async"></button><figcaption>Verificações de CHANGELOG.</figcaption></figure></li>
+    <li><figure><button type="button" data-ampliar data-src="assets/img/projetos/skyle/06-estatisticas-tokens-desktop-escuro.webp" data-legenda="Estatísticas de tokens e custos com valores sintéticos."><img src="assets/img/projetos/skyle/06-estatisticas-tokens-desktop-escuro.webp" width="1600" height="1000" alt="Tela de estatísticas do Skyle com gráficos de tokens e custos gerados pela demonstração; números fictícios." loading="lazy" decoding="async"></button><figcaption>Estatísticas de tokens.</figcaption></figure></li>
+  </ul>
+  <p class="aviso-demo">Todas as telas usam dados fictícios de demonstração.</p>
+  <div class="acoes" style="margin-top: 28px;"><button type="button" class="btn btn-claro chanfro" data-ir="contato">Quero algo parecido</button></div>
+</aside>
+
+<aside class="caso" id="caso-simplifinance" role="dialog" aria-modal="true" aria-labelledby="caso-t-simpli" style="--c: #6FE7EE;" inert>
+  <div class="caso-cabeca"><p class="rotulo" style="color: var(--c);">Estudo de caso · 02</p><button type="button" class="btn btn-vidro chanfro" data-fechar-caso style="min-height: 44px;">Fechar ✕</button></div>
+  <h2 id="caso-t-simpli">SimpliFinance</h2>
+  <p class="resumo">Finanças pessoais sob controle, no seu ritmo.</p>
+  <div class="fichas">
+    <div class="vidro ficha"><p>Plataforma</p><strong>App mobile</strong></div>
+    <div class="vidro ficha"><p>Versão</p><strong>1.10.0</strong></div>
+    <div class="vidro ficha"><p>Dados</p><strong>Locais, em SQLite</strong></div>
+  </div>
+  <h3>O desafio</h3>
+  <p class="texto">Acompanhar saldos, registros e vencimentos sem confundir uma compra no cartão com uma saída de caixa.</p>
+  <h3>A solução</h3>
+  <p class="texto">Um app que reúne receitas e despesas, categorias e responsáveis, saldos, cartões, faturas, parcelas e recorrências. Despesas no cartão entram no limite e na fatura; o pagamento da fatura é que gera a saída da conta. O painel e as análises mostram as movimentações e os valores previstos por período.</p>
+  <h3>Destaques</h3>
+  <ul class="pontos-lista">
+    <li>Painel inicial com saldo disponível, faturas e previsão mensal.</li>
+    <li>Registros de receitas e despesas com categorias, filtros e recorrências.</li>
+    <li>Contas, cartões, parcelas e acompanhamento de faturas.</li>
+    <li>Análises de despesas por período, categoria e responsável.</li>
+    <li>Importação de arquivos OFX e relatórios financeiros.</li>
+  </ul>
+  <h3>Arquitetura</h3>
+  <p class="texto">App em Flutter e Dart com telas Material e estado via Riverpod. Os providers ligam as telas a contratos de repositório, com implementações em SQLite e regras de domínio em Dart; valores monetários são tratados em centavos.</p>
+  <h3>Tecnologias</h3>
+  <ul class="tags"><li class="tag chanfro">Flutter</li><li class="tag chanfro">Dart</li><li class="tag chanfro">Riverpod</li><li class="tag chanfro">SQLite (sqflite)</li><li class="tag chanfro">fl_chart</li><li class="tag chanfro">Kotlin</li></ul>
+  <h3>Telas</h3>
+  <ul class="galeria">
+    <li><figure><button type="button" data-ampliar data-src="assets/img/projetos/simplifinance/00-heroi-inicio-mobile-escuro.webp" data-legenda="Painel de saldo, previsão mensal e faturas com dados de exemplo."><img src="assets/img/projetos/simplifinance/00-heroi-inicio-mobile-escuro.webp" width="640" height="1385" alt="Painel inicial escuro com saldo disponível, valores previstos e faturas, usando dados fictícios." loading="lazy" decoding="async"></button><figcaption>Início, tema escuro.</figcaption></figure></li>
+    <li><figure><button type="button" data-ampliar data-src="assets/img/projetos/simplifinance/01-inicio-mobile-claro.webp" data-legenda="A mesma tela inicial na paleta clara."><img src="assets/img/projetos/simplifinance/01-inicio-mobile-claro.webp" width="640" height="1385" alt="Painel inicial claro com saldo disponível, valores previstos e faturas, usando dados fictícios." loading="lazy" decoding="async"></button><figcaption>Início, tema claro.</figcaption></figure></li>
+    <li><figure><button type="button" data-ampliar data-src="assets/img/projetos/simplifinance/02-registros-mobile-claro.webp" data-legenda="Lista de receitas e despesas com categoria, data e responsável fictícios."><img src="assets/img/projetos/simplifinance/02-registros-mobile-claro.webp" width="640" height="1385" alt="Lista clara de receitas e despesas fictícias com valor, categoria e data." loading="lazy" decoding="async"></button><figcaption>Registros.</figcaption></figure></li>
+    <li><figure><button type="button" data-ampliar data-src="assets/img/projetos/simplifinance/03-registros-mobile-escuro.webp" data-legenda="Lista de registros na paleta escura."><img src="assets/img/projetos/simplifinance/03-registros-mobile-escuro.webp" width="640" height="1385" alt="Lista escura de receitas e despesas fictícias com valor, categoria e data." loading="lazy" decoding="async"></button><figcaption>Registros, tema escuro.</figcaption></figure></li>
+    <li><figure><button type="button" data-ampliar data-src="assets/img/projetos/simplifinance/04-analises-mobile-claro.webp" data-legenda="Totais por categoria e gráfico de evolução com valores sintéticos."><img src="assets/img/projetos/simplifinance/04-analises-mobile-claro.webp" width="640" height="1385" alt="Análise clara de despesas fictícias com totais por categoria e gráfico de evolução." loading="lazy" decoding="async"></button><figcaption>Análises.</figcaption></figure></li>
+    <li><figure><button type="button" data-ampliar data-src="assets/img/projetos/simplifinance/05-analises-mobile-escuro.webp" data-legenda="A mesma análise na paleta escura."><img src="assets/img/projetos/simplifinance/05-analises-mobile-escuro.webp" width="640" height="1385" alt="Análise escura de despesas fictícias com totais por categoria e gráfico de evolução." loading="lazy" decoding="async"></button><figcaption>Análises, tema escuro.</figcaption></figure></li>
+    <li><figure><button type="button" data-ampliar data-src="assets/img/projetos/simplifinance/06-categorias-mobile-escuro.webp" data-legenda="Categorias genéricas de receitas e despesas."><img src="assets/img/projetos/simplifinance/06-categorias-mobile-escuro.webp" width="640" height="1385" alt="Lista escura de categorias genéricas de receitas e despesas." loading="lazy" decoding="async"></button><figcaption>Categorias.</figcaption></figure></li>
+    <li><figure><button type="button" data-ampliar data-src="assets/img/projetos/simplifinance/07-cadastro-lancamento-mobile-escuro.webp" data-legenda="Formulário de novo registro com valores de exemplo."><img src="assets/img/projetos/simplifinance/07-cadastro-lancamento-mobile-escuro.webp" width="640" height="1385" alt="Formulário escuro de novo registro preenchido com Compra do mês, R$ 100,00 e Alimentação, ainda não salvo." loading="lazy" decoding="async"></button><figcaption>Novo registro.</figcaption></figure></li>
+  </ul>
+  <p class="aviso-demo">Todas as telas usam dados fictícios de demonstração.</p>
+  <div class="acoes" style="margin-top: 28px;"><button type="button" class="btn btn-claro chanfro" data-ir="contato">Quero algo parecido</button></div>
+</aside>
+
+<aside class="caso" id="caso-teklog" role="dialog" aria-modal="true" aria-labelledby="caso-t-teklog" style="--c: #B79BFF;" inert>
+  <div class="caso-cabeca"><p class="rotulo" style="color: var(--c);">Estudo de caso · 03</p><button type="button" class="btn btn-vidro chanfro" data-fechar-caso style="min-height: 44px;">Fechar ✕</button></div>
+  <h2 id="caso-t-teklog">Teklog</h2>
+  <p class="resumo">Gestão offline-first de serviços técnicos.</p>
+  <div class="fichas">
+    <div class="vidro ficha"><p>Status</p><strong>Em desenvolvimento</strong></div>
+    <div class="vidro ficha"><p>Versão</p><strong>0.2.0</strong></div>
+    <div class="vidro ficha"><p>Plataforma</p><strong>Celular e tablet</strong></div>
+    <div class="vidro ficha"><p>Dados</p><strong>Locais, offline</strong></div>
+  </div>
+  <h3>O desafio</h3>
+  <p class="texto">Centralizar registros de atendimentos técnicos que costumam ficar espalhados em planilhas, documentos e mensagens, mantendo um histórico padronizado e utilizável mesmo sem conexão.</p>
+  <h3>A solução</h3>
+  <p class="texto">Um app offline-first para equipes corporativas de tecnologia e profissionais autônomos, com cadastros operacionais, equipamentos para consulta, relatórios técnicos com atendimentos por local, custos e mídias, além de modelos e execuções de checklist. O PDF do relatório é gerado no próprio aparelho, com a identidade da organização emissora.</p>
+  <h3>Destaques</h3>
+  <ul class="pontos-lista">
+    <li>Relatórios offline com vários atendimentos por local, custos gerais, mídias e transições de status.</li>
+    <li>Checklists com modelos versionados, respostas tipadas e execução vinculada a relatórios ou atendimentos.</li>
+    <li>PDF local com a identidade da organização emissora, checklists e mídias.</li>
+    <li>Organizações emissoras separadas das empresas clientes.</li>
+  </ul>
+  <h3>Arquitetura</h3>
+  <p class="texto">Camadas Screen → Provider (Riverpod) → Repository → DAO → Drift/SQLite, com persistência local offline-first. O exportador de PDF recebe uma projeção imutável dos dados e grava o documento no aparelho.</p>
+  <h3>Tecnologias</h3>
+  <ul class="tags"><li class="tag chanfro">Flutter</li><li class="tag chanfro">Dart</li><li class="tag chanfro">Riverpod</li><li class="tag chanfro">GoRouter</li><li class="tag chanfro">Drift</li><li class="tag chanfro">SQLite</li></ul>
+  <h3>No roadmap</h3>
+  <ul class="pontos-lista">
+    <li>Concluir a validação da etapa de PDF em aparelho e o build do APK.</li>
+    <li>Sincronização REST incremental, com upload, download e tratamento de conflitos.</li>
+    <li>Integrações com GLPI e Active Directory.</li>
+  </ul>
+  <h3>Telas</h3>
+  <ul class="galeria">
+    <li><figure><button type="button" data-ampliar data-src="assets/img/projetos/teklog/00-heroi-relatorios-mobile-claro.webp" data-legenda="Relatórios com busca, filtros e cartões de demonstração."><img src="assets/img/projetos/teklog/00-heroi-relatorios-mobile-claro.webp" width="640" height="1385" alt="Tela Relatórios no celular, tema claro, com busca e relatórios de demonstração; dados fictícios." loading="lazy" decoding="async"></button><figcaption>Relatórios.</figcaption></figure></li>
+    <li><figure><button type="button" data-ampliar data-src="assets/img/projetos/teklog/01-relatorios-mobile-escuro.webp" data-legenda="Lista de relatórios no tema escuro, com estados fictícios."><img src="assets/img/projetos/teklog/01-relatorios-mobile-escuro.webp" width="640" height="1385" alt="Tela Relatórios no celular, tema escuro, com estados de relatórios de demonstração." loading="lazy" decoding="async"></button><figcaption>Relatórios, tema escuro.</figcaption></figure></li>
+    <li><figure><button type="button" data-ampliar data-src="assets/img/projetos/teklog/02-relatorio-aberto-mobile-claro.webp" data-legenda="Detalhe de um relatório demonstrativo concluído."><img src="assets/img/projetos/teklog/02-relatorio-aberto-mobile-claro.webp" width="640" height="1385" alt="Detalhe de relatório concluído no celular, tema claro, com status, descrição e custo fictício total." loading="lazy" decoding="async"></button><figcaption>Relatório aberto.</figcaption></figure></li>
+    <li><figure><button type="button" data-ampliar data-src="assets/img/projetos/teklog/03-relatorio-aberto-mobile-escuro.webp" data-legenda="O mesmo relatório no tema escuro."><img src="assets/img/projetos/teklog/03-relatorio-aberto-mobile-escuro.webp" width="640" height="1385" alt="Detalhe de relatório concluído no celular, tema escuro, com status, descrição e custo fictício total." loading="lazy" decoding="async"></button><figcaption>Relatório, tema escuro.</figcaption></figure></li>
+    <li><figure><button type="button" data-ampliar data-src="assets/img/projetos/teklog/04-checklists-tablet-claro.webp" data-legenda="Modelos de checklist no tablet."><img src="assets/img/projetos/teklog/04-checklists-tablet-claro.webp" width="900" height="1201" alt="Modelos de checklist no tablet, tema claro, com cinco modelos de demonstração." loading="lazy" decoding="async"></button><figcaption>Checklists no tablet.</figcaption></figure></li>
+    <li><figure><button type="button" data-ampliar data-src="assets/img/projetos/teklog/05-checklists-tablet-escuro.webp" data-legenda="Os mesmos modelos de checklist no tema escuro."><img src="assets/img/projetos/teklog/05-checklists-tablet-escuro.webp" width="900" height="1201" alt="Modelos de checklist no tablet, tema escuro, com cinco modelos de demonstração." loading="lazy" decoding="async"></button><figcaption>Checklists, tema escuro.</figcaption></figure></li>
+    <li><figure><button type="button" data-ampliar data-src="assets/img/projetos/teklog/06-inventario-tablet-claro.webp" data-legenda="Tipos de equipamento com contagens fictícias."><img src="assets/img/projetos/teklog/06-inventario-tablet-claro.webp" width="900" height="1201" alt="Tela Equipamentos no tablet, tema claro, com tipos de equipamento e contagens fictícias." loading="lazy" decoding="async"></button><figcaption>Equipamentos.</figcaption></figure></li>
+    <li><figure><button type="button" data-ampliar data-src="assets/img/projetos/teklog/07-inventario-tablet-escuro.webp" data-legenda="Tipos de equipamento no tema escuro."><img src="assets/img/projetos/teklog/07-inventario-tablet-escuro.webp" width="900" height="1201" alt="Tela Equipamentos no tablet, tema escuro, com tipos de equipamento e contagens fictícias." loading="lazy" decoding="async"></button><figcaption>Equipamentos, tema escuro.</figcaption></figure></li>
+  </ul>
+  <p class="aviso-demo">Todas as telas usam dados fictícios de demonstração.</p>
+  <div class="acoes" style="margin-top: 28px;"><button type="button" class="btn btn-claro chanfro" data-ir="contato">Quero algo parecido</button></div>
+</aside>
+
+<!-- Ampliação de imagem -->
+<div class="ampliar" id="ampliar" role="dialog" aria-modal="true" aria-label="Tela ampliada" inert>
+  <button type="button" class="btn btn-vidro chanfro fechar" data-fechar-ampliar style="min-height: 44px;">Fechar ✕</button>
+  <img id="ampliar-img" src="data:image/gif;base64,R0lGODlhAQABAAAAACw=" alt="">
+  <p id="ampliar-legenda"></p>
+</div>
+
+<div class="cursor-gota" aria-hidden="true"><span></span></div>
+
+<div class="carregador" id="carregador" role="status" aria-label="Carregando">
+  <div class="logo" style="cursor: default;"><b style="font-size: 26px;">stawix</b><i style="font-size: 13px;">.dev</i></div>
+  <div class="capsula" aria-hidden="true"><div class="liquido" id="liquido"><svg viewBox="0 0 120 12" preserveAspectRatio="none"><path d="M0,6 Q15,0 30,6 T60,6 T90,6 T120,6 V12 H0 Z" fill="#C21E44"/></svg></div></div>
+  <p><span id="carregador-pct">0</span>% · enchendo o rio</p>
+</div>
+
+<noscript><style>.carregador{display:none!important}</style></noscript>
+</body>
+</html>
